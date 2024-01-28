@@ -5,8 +5,9 @@
 работа в других системах требует добавления соответствующей сборки pg_dump
 в директорию проекта и добавления условия для выбора правильного исполняемого файла
 
-[] исходники для сборки pg_dump: https://github.com/postgres/postgres
-[] официальная документация по сборке: https://www.postgresql.org/docs/devel
+исходники для сборки pg_dump: https://github.com/postgres/postgres
+
+официальная документация по сборке: https://www.postgresql.org/docs/devel
 
 для получения запроса необходимо создать объект UserConn(NamedTuple), содержащий параметры подключения к РСУБД:
 - user: str
