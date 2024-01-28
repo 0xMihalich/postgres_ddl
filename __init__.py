@@ -4,7 +4,7 @@ from subprocess import Popen, PIPE
 from sys        import platform
 from typing     import Optional
 
-from user_conn  import UserConn
+from .user_conn  import UserConn
 
 
 # данный скрипт протестирован на OS Windows 10 x64 и Ubuntu 22.04 x64
